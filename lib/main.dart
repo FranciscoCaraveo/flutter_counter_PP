@@ -5,5 +5,7 @@ import 'package:flutter_counter/counter_observer.dart';
 
 void main(){
   Bloc.observer = const CounterObserver();
+  
   runApp(const CounterApp());
 }
+
